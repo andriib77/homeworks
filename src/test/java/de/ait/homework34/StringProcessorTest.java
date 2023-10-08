@@ -45,13 +45,13 @@ public class StringProcessorTest {
     }
 
     @Test
-    public void testReverseLeer() {
-        assertEquals("", stringProcessor.reverse(""));
+    public void testReverseSymbols() {
+        assertEquals(" #@ ", stringProcessor.reverse(" @# "));
     }
 
     @Test
-    public void testReverseSymbols() {
-        assertEquals(" #@ ", stringProcessor.reverse(" @# "));
+    public void testReverseLeer() {
+        assertEquals("", stringProcessor.reverse(""));
     }
 
     @Test
