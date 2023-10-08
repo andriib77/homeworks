@@ -19,14 +19,14 @@ public class StringProcessorTest {
     public void testConcatenatePositive() {
         assertEquals("hallo Deutschland", stringProcessor.concatenate("hallo ", "Deutschland"));
     }
-
-    public void testConcatenateNegative() {
+    @Test
+    public void testConcatenateLeer() {
         assertEquals("", stringProcessor.concatenate("", ""));
     }
 
     @Test
     public void testLength() {
-        assertEquals(17, stringProcessor.getLength("hallo Deutschland"));
+        assertEquals(17, stringProcessor.getLength("Hallo Deutschland"));
     }
 
     @Test
