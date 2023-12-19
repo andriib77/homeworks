@@ -1,4 +1,4 @@
-package de.javalessons.homework36;
+package de.ait.homework36;
 
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;

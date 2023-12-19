@@ -6,7 +6,6 @@ import org.slf4j.LoggerFactory;
 import java.util.HashMap;
 import java.util.Map;
 import java.util.Scanner;
-import java.util.regex.PatternSyntaxException;
 
 public class CurrencyConverter {
     private static final Logger LOGGER = LoggerFactory.getLogger(CurrencyConverter.class);

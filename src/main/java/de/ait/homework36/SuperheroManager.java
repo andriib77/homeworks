@@ -1,4 +1,4 @@
-package de.javalessons.homework36;
+package de.ait.homework36;
 
 import java.util.ArrayList;
 import java.util.List;

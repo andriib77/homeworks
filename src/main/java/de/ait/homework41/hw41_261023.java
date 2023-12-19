@@ -1,5 +1,10 @@
 package de.ait.homework41;
 
+import de.ait.homework42.Sportman;
+import lombok.Lombok;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.HashSet;
@@ -7,7 +12,9 @@ import java.util.Iterator;
 import java.util.Map;
 
 public class hw41_261023 {
+    private static Logger LOGGER = LoggerFactory.getLogger(hw41_261023.class);
     public static void main(String[] args) {
+
         ArrayList<String> countriesList = new ArrayList<>();
         countriesList.add("США");
         countriesList.add("Великобритания");
@@ -59,7 +66,7 @@ public class hw41_261023 {
             capitalMap.put("Испания", "Мадрид");
         }
         System.out.println("------------");
-        System.out.println("Обновленное множество стран:");
+        LOGGER.info("Обновленное множество стран:");
         for (String country : countriesSet) {
             System.out.println(country);
         }

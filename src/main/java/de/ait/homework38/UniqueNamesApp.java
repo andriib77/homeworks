@@ -1,4 +1,4 @@
-package de.ait.homework38;
+/*package de.ait.homework38;
 
 import java.util.HashSet;
 import java.util.Scanner;
@@ -30,3 +30,13 @@ public class UniqueNamesApp {
         scanner.close();
     }
 }
+
+
+students.remove(student2);
+
+        students.printAllStudents(); // Выведите всех студентов в базе данных
+
+        Student student6 = new Student("Anton Antonov", 25);
+        students.addStudent(student6);
+        System.out.println("-------------");
+        students.printAllStudents(); // Выведите всех студентов в базе данных*/

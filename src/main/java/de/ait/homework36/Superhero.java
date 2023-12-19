@@ -1,4 +1,4 @@
-package de.javalessons.homework36;
+package de.ait.homework36;
 
 public class Superhero {
 
